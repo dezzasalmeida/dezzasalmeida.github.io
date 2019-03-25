@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:  0px 2px 4px -2px #dbdbdb; 
+
+}
+.menu {
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu li {
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #5d1277;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo--pequeno {
+    width: 150px;
+    margin: 0 20px;
+
+}
+
+.conteudo{
+   margin: 40px 0 0 0;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.autora{
+    width: 200px;
+}
+
+.autora__foto {
+    width: 200px;
+    border-radius: 100px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.autora__nome{
+    font-weight: bold;
+}
+
+.autora__artigo {
+    width:  500px;
+}
+
+.rodape {
+    width: 100vw;
+    background-color: #a9a9a9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}

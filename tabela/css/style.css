@@ -1,0 +1,67 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+th, td {
+    border-right: 1px solid #ccc;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #dfdfdf;
+}
+
+.planos {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.autonomos {
+    background-color:#10c242;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.pequenas-empresas {
+    background-color:#1214b1;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+tr td:first-child {
+    text-align: left;
+    padding: 5px;
+}
+
+.comprar {
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #ff5406;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.linha-botoes > th {
+    padding: 10px 0;
+    border-top: none;
+}
+
+.linha-profissoes > th {
+    border-bottom: none;
+}
+
+.check-azul {
+    color: #1214b1;
+    font-weight: bold;
+}
+
+.check-verde {
+    color: #10c242;
+    font-weight: bold;
+}

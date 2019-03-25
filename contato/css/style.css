@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    width: 40%;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.campos {
+    display: flex;
+    padding: 20px 0;
+}
+.campos > label {
+    width: 40%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.campos > input,
+.campos > textarea,
+.campos > select {
+    width: 38%;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.campos > select {
+    width: 40%;
+}
+
+.meia-coluna {
+    width: 38%;
+}
+
+.btn {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+.btn--roxo {
+    background-color: #cc0f67;
+    color: #fff;
+
+}
+
+.form__btn {
+    width: 20%;
+    display: flex;
+    margin: 0 auto;
+}
